@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4327CFA98FD9CD24C632D894 /* Pods_ReignDesignApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3ED1C0E4D70CDBFCD4F070 /* Pods_ReignDesignApp.framework */; };
 		5866145B1F5C73F20026E961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5866145A1F5C73F20026E961 /* AppDelegate.swift */; };
-		5866145D1F5C73F20026E961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5866145C1F5C73F20026E961 /* ViewController.swift */; };
-		586614601F5C73F20026E961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5866145E1F5C73F20026E961 /* Main.storyboard */; };
 		586614631F5C73F20026E961 /* ReignDesignApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 586614611F5C73F20026E961 /* ReignDesignApp.xcdatamodeld */; };
 		586614651F5C73F20026E961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586614641F5C73F20026E961 /* Assets.xcassets */; };
 		586614681F5C73F20026E961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586614661F5C73F20026E961 /* LaunchScreen.storyboard */; };
+		58B97A3A1F5CB12A0004420B /* UtilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B97A391F5CB12A0004420B /* UtilityManager.swift */; };
+		58B97A3C1F5CB8990004420B /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B97A3B1F5CB8990004420B /* ServerManager.swift */; };
+		58B97A3F1F5CCC3C0004420B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B97A3E1F5CCC3C0004420B /* Post.swift */; };
+		58B97A411F5CD4CB0004420B /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B97A401F5CD4CB0004420B /* PostListViewController.swift */; };
+		58B97A441F5D19360004420B /* PostListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B97A431F5D19360004420B /* PostListTableViewCell.swift */; };
+		58B97A461F5D3CE60004420B /* ShowingWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B97A451F5D3CE60004420B /* ShowingWebViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FD4398B3640633B92795478 /* Pods-ReignDesignApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReignDesignApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReignDesignApp/Pods-ReignDesignApp.debug.xcconfig"; sourceTree = "<group>"; };
 		586614571F5C73F20026E961 /* ReignDesignApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReignDesignApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5866145A1F5C73F20026E961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5866145C1F5C73F20026E961 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5866145F1F5C73F20026E961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		586614621F5C73F20026E961 /* ReignDesignApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReignDesignApp.xcdatamodel; sourceTree = "<group>"; };
 		586614641F5C73F20026E961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		586614671F5C73F20026E961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		586614691F5C73F20026E961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B97A391F5CB12A0004420B /* UtilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityManager.swift; sourceTree = "<group>"; };
+		58B97A3B1F5CB8990004420B /* ServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		58B97A3E1F5CCC3C0004420B /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		58B97A401F5CD4CB0004420B /* PostListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
+		58B97A431F5D19360004420B /* PostListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListTableViewCell.swift; sourceTree = "<group>"; };
+		58B97A451F5D3CE60004420B /* ShowingWebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowingWebViewViewController.swift; sourceTree = "<group>"; };
+		C0307C34D18401C560E20EA3 /* Pods-ReignDesignApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReignDesignApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReignDesignApp/Pods-ReignDesignApp.release.xcconfig"; sourceTree = "<group>"; };
+		DA3ED1C0E4D70CDBFCD4F070 /* Pods_ReignDesignApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReignDesignApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4327CFA98FD9CD24C632D894 /* Pods_ReignDesignApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				586614591F5C73F20026E961 /* ReignDesignApp */,
 				586614581F5C73F20026E961 /* Products */,
+				DA5DA14DFEA89327D1453A21 /* Pods */,
+				C74A4F199C18A171CABA430F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +72,59 @@
 			isa = PBXGroup;
 			children = (
 				5866145A1F5C73F20026E961 /* AppDelegate.swift */,
-				5866145C1F5C73F20026E961 /* ViewController.swift */,
-				5866145E1F5C73F20026E961 /* Main.storyboard */,
+				58B97A401F5CD4CB0004420B /* PostListViewController.swift */,
+				58B97A451F5D3CE60004420B /* ShowingWebViewViewController.swift */,
+				58B97A421F5D19060004420B /* Views */,
+				58B97A381F5CB1020004420B /* Managers */,
+				58B97A3D1F5CCB910004420B /* Models */,
 				586614641F5C73F20026E961 /* Assets.xcassets */,
 				586614661F5C73F20026E961 /* LaunchScreen.storyboard */,
 				586614691F5C73F20026E961 /* Info.plist */,
 				586614611F5C73F20026E961 /* ReignDesignApp.xcdatamodeld */,
 			);
 			path = ReignDesignApp;
+			sourceTree = "<group>";
+		};
+		58B97A381F5CB1020004420B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				58B97A391F5CB12A0004420B /* UtilityManager.swift */,
+				58B97A3B1F5CB8990004420B /* ServerManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		58B97A3D1F5CCB910004420B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58B97A3E1F5CCC3C0004420B /* Post.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		58B97A421F5D19060004420B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58B97A431F5D19360004420B /* PostListTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C74A4F199C18A171CABA430F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA3ED1C0E4D70CDBFCD4F070 /* Pods_ReignDesignApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA5DA14DFEA89327D1453A21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FD4398B3640633B92795478 /* Pods-ReignDesignApp.debug.xcconfig */,
+				C0307C34D18401C560E20EA3 /* Pods-ReignDesignApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5866146C1F5C73F20026E961 /* Build configuration list for PBXNativeTarget "ReignDesignApp" */;
 			buildPhases = (
+				291CBD48CE72EBFBB0F3FBA4 /* [CP] Check Pods Manifest.lock */,
 				586614531F5C73F20026E961 /* Sources */,
 				586614541F5C73F20026E961 /* Frameworks */,
 				586614551F5C73F20026E961 /* Resources */,
+				2AEEE0041DA9BF53574449EB /* [CP] Embed Pods Frameworks */,
+				CCA61F9AD2F2BBCD57F8D819 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,19 +192,71 @@
 			files = (
 				586614681F5C73F20026E961 /* LaunchScreen.storyboard in Resources */,
 				586614651F5C73F20026E961 /* Assets.xcassets in Resources */,
-				586614601F5C73F20026E961 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		291CBD48CE72EBFBB0F3FBA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2AEEE0041DA9BF53574449EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReignDesignApp/Pods-ReignDesignApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA61F9AD2F2BBCD57F8D819 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReignDesignApp/Pods-ReignDesignApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		586614531F5C73F20026E961 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B97A411F5CD4CB0004420B /* PostListViewController.swift in Sources */,
+				58B97A3C1F5CB8990004420B /* ServerManager.swift in Sources */,
 				586614631F5C73F20026E961 /* ReignDesignApp.xcdatamodeld in Sources */,
-				5866145D1F5C73F20026E961 /* ViewController.swift in Sources */,
+				58B97A441F5D19360004420B /* PostListTableViewCell.swift in Sources */,
+				58B97A461F5D3CE60004420B /* ShowingWebViewViewController.swift in Sources */,
+				58B97A3F1F5CCC3C0004420B /* Post.swift in Sources */,
+				58B97A3A1F5CB12A0004420B /* UtilityManager.swift in Sources */,
 				5866145B1F5C73F20026E961 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,14 +264,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5866145E1F5C73F20026E961 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5866145F1F5C73F20026E961 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		586614661F5C73F20026E961 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -263,10 +370,12 @@
 		};
 		5866146D1F5C73F20026E961 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FD4398B3640633B92795478 /* Pods-ReignDesignApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SSVR943U99;
 				INFOPLIST_FILE = ReignDesignApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IsraelGutierrez.ReignDesignApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,10 +385,12 @@
 		};
 		5866146E1F5C73F20026E961 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0307C34D18401C560E20EA3 /* Pods-ReignDesignApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SSVR943U99;
 				INFOPLIST_FILE = ReignDesignApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.IsraelGutierrez.ReignDesignApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,6 +417,7 @@
 				5866146E1F5C73F20026E961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
